@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+body { 
+	font-family: Inconsolata;
+	color: #8093AA; 
+	background: #EEF1FE; 
+	margin: 0; 
+	padding: 0;
+	text-align: justify;
+}
+header {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../img/header2.jpg);
+	height: 500px;
+	width: 100%;
+}
+header h1 {
+	font-family: Inconsolata;
+	font-size: 100px;
+	color: #8093AA;
+	text-align: center; 
+}
+header h2 {
+	font-family: Inconsolata;
+	font-size: 80px;
+	color: #562CDF;
+	text-align: center;
+}
+.summary {
+	text-align: center;
+	font-family: Serif;
+	font-size: 25px;
+	color: #1530FD;
+	margin-right: 50px;	
+	margin-left: 50%;
+	margin-top: 60px;
+	border-style: dashed;
+	border-width: thin;
+	border-color: #8D5EF7;
+}
+.preamble {
+	margin-right: 200px;
+	margin-left: 200px;	
+	margin-top: 80px;
+	font-family: Serif;
+}
+.preamble h3 {
+	font-size: 30px;
+}
+.preamble p {
+	color: #5246C9;
+}
+.explanation {
+	margin-right: 200px;
+	margin-left: 200px;	
+	margin-top: 80px;
+	font-family: Serif;
+}
+.explanation h3 {
+	font-size: 30px;
+}
+.explanation p {
+	color: #5246C9;
+}
+.participation {
+	margin-right: 500px;
+	margin-left: 100px;	
+	margin-top: 50px;
+	font-family: Serif;
+}
+.participation h3 {
+	font-size: 20px;
+}
+.benefits {
+	margin-right: 100px;
+	margin-left: 500px;	
+	margin-top: 50px;
+	font-family: Serif;
+}
+.benefits h3 {
+	font-size: 20px;
+}
+.requirements {
+	margin-right: 500px;
+	margin-left: 100px;	
+	margin-top: 50px;
+	font-family: Serif;
+}
+.requirements h3 {
+	font-size: 20px;
+}
+footer {
+	margin-top: 50px;
+	margin-left: 100px;
+}
+.wrapper {
+	margin-top: 40px;
+	margin-left: 100px;
+}
+.sidebar li a:link {
+	color: #3D2B7E;
+}
+.sidebar li a:visited {
+	color: #2B6C6D;
+}
