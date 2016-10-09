@@ -1,106 +1,123 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+* {
+	box-sizing: border-box;
+	margin: auto;
+}
+
 body { 
 	font-family: Inconsolata;
 	color: #8093AA; 
-	background: #EEF1FE; 
-	margin: 0; 
-	padding: 0;
-	text-align: justify;
+	background-image: url("../img/congruent_outline.png");
+	text-align: center;
 }
-header {
+
+[role = banner] {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-image: url(../img/header2.jpg);
-	height: 500px;
-	width: 100%;
+	height: 400px;
 }
-header h1 {
+
+header {
+	padding-top: 5em;
 	font-family: Inconsolata;
+}
+
+header h1 {
 	font-size: 100px;
 	color: #8093AA;
-	text-align: center; 
 }
+
 header h2 {
-	font-family: Inconsolata;
 	font-size: 80px;
 	color: #562CDF;
-	text-align: center;
 }
+
 .summary {
-	text-align: center;
+	padding: 2% 20%;
+}
+
+.box {
 	font-family: Serif;
 	font-size: 25px;
-	color: #1530FD;
-	margin-right: 50px;	
-	margin-left: 50%;
-	margin-top: 60px;
+	color: #FFF;
 	border-style: dashed;
 	border-width: thin;
 	border-color: #8D5EF7;
 }
+
+.box a {
+	text-decoration: none;
+	color: #FFF;
+}
+
 .preamble {
-	margin-right: 200px;
-	margin-left: 200px;	
-	margin-top: 80px;
 	font-family: Serif;
+	padding: 2% 30% 2% 5%;
 }
-.preamble h3 {
-	font-size: 30px;
+
+.textura {
+	padding: 2% 8%;
+	background-image: url("../img/textura.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
-.preamble p {
+
+.textura h3 {
+	font-size: 2em;
+	margin-bottom: 0.8em;
+}
+
+.textura p {
 	color: #5246C9;
 }
+
 .explanation {
-	margin-right: 200px;
-	margin-left: 200px;	
-	margin-top: 80px;
 	font-family: Serif;
+	padding: 2% 30% 2% 5%;
 }
-.explanation h3 {
-	font-size: 30px;
+
+.participation {
+	font-family: Serif;
+	padding: 2% 30% 2% 5%;
 }
-.explanation p {
+
+.textura a {
+	text-decoration: none;
 	color: #5246C9;
 }
-.participation {
-	margin-right: 500px;
-	margin-left: 100px;	
-	margin-top: 50px;
-	font-family: Serif;
-}
-.participation h3 {
-	font-size: 20px;
-}
+
 .benefits {
-	margin-right: 100px;
-	margin-left: 500px;	
-	margin-top: 50px;
+	padding: 2% 30% 2% 5%;
 	font-family: Serif;
 }
-.benefits h3 {
-	font-size: 20px;
-}
+
 .requirements {
-	margin-right: 500px;
-	margin-left: 100px;	
-	margin-top: 50px;
+	padding: 2% 30% 2% 5%;
 	font-family: Serif;
 }
-.requirements h3 {
-	font-size: 20px;
+
+.sidebar {
+	background-image: url("../img/footer.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: left;
+	padding-top: 2%;
+	padding-left: 5%;
 }
-footer {
-	margin-top: 50px;
-	margin-left: 100px;
+
+.sidebar .wrapper .design-selection nav ul li a {
+	list-style: none;
 }
-.wrapper {
-	margin-top: 40px;
-	margin-left: 100px;
-}
+
 .sidebar li a:link {
 	color: #3D2B7E;
 }
+
 .sidebar li a:visited {
 	color: #2B6C6D;
 }
